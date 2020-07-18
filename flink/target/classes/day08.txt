@@ -1,0 +1,146 @@
+                      复习
+
+DDL YAML文件(sql-client-defaults.yaml ,启动命令sql-client.sh 就会默认读取这个文件,在里面进行一些sql语句操作) 或者代码操作建表
+
+在DDL建表操作中如果source或者sink对应的source
+不支持DefineRowtimeAttributes就不支持在withShema后面调用'et.rowtime
+不支持DefineProctimeAttributes就不支持在withShema后面调用'pt.proctime
+其中Kafka是支持的  CSV来用，所以就不用TableApI了，就用DataStream了
+
+day07需要重点掌握的内容
+1.知道tableAPI程序的主要结构
+所有的操作基于Table
+在环境里注册表，可以用connect连接不同的外部系统，定义好format和Schema
+对于输入和输出的表，TabeSource和Tablesink,创建的时候不做分区，主要是后面的处理逻辑决定
+
+2.调用table的insertInto的方法，可以将表数据写入到TableSink
+
+3.动态表和持续查询
+这是流处理程序转换成表结构的核心概念
+
+4.更新模式 Append(追加) Restract(删除旧的，更新新的) Upsert(delete,文件输出和Kafka是不支持的，)
+
+5时间语义的定义
+.proctime
+.rowtime
+
+
+
+
+                           窗口(与时间语义相结合使用的) --- 这个是tableAPI和Stream中的window要分开
+ 分类
+    1.Group Windows 就是分组函数 (针对时间或者数量)
+
+    val table = input
+    .window([w:GroupedWindow] as 'w) //GroupedWindow就是预定义好的window
+    .groupBy('w,'a) //必须要将w使用在groupBy子句中
+    .select('a,'b.sum)
+
+    预定义window有
+    ①滚动窗口
+     Tumbling Event-time window
+    .window(Tumble over 10.minute on 'rowtime as 'w)
+    Tumblinng Process-time window
+    .window(Tumble over 10.minute on 'proctime as 'w)
+     Tumblinng Row-count window
+     .window(Tumble over 10.rows on 'proctime as 'w)
+     .window(Tumble over 10.rows on 'row as 'w)
+
+     ②Sliding Windows (滑动窗口)
+     Sliding Event-time window
+     .window(Slide over 10.minutes every 5.minutes on 'rowtime as 'w)
+     Sliding  Process-time window
+     .window(Slide over 10.minutes every 5.minutes on 'proctime as 'w)
+     Sliding Row-count window
+      .window(Slide over 10.rows every 5.rows on 'proctime as 'w)
+      .window(Slide over 10.rows every 5.rows on 'rowtime as 'w)
+
+      ③Session Windows(会话窗口)
+      //Session Event-time Window
+      .window(Session withGap 10..minutes on 'rowtime as 'w')
+
+      //Session Process-time Window
+      .window(Session withGap 10..minutes on '[proctime as 'w')
+
+
+    2.Over Windows   类似Hive中的开窗函数  临近几列
+    val table = input
+    .window([w:OverWIndow] as 'w')
+    .select ('a,;a.sum over 'w,'c,min over 'w)
+
+    1） 无界的 over window
+    // 无界的事件时间over window (时间字段 "rowtime")
+    .window(Over partitionBy 'a orderBy 'rowtime preceding UNBOUNDED_RANGE as 'w)
+
+    //无界的处理时间over window (时间字段"proctime")
+    .window(Over partitionBy 'a orderBy 'proctime preceding UNBOUNDED_RANGE as 'w)
+
+    // 无界的事件时间Row-count over window (时间字段 "rowtime")
+    .window(Over partitionBy 'a orderBy 'rowtime preceding UNBOUNDED_ROW as 'w)
+
+    //无界的处理时间Row-count over window (时间字段 "rowtime")
+    .window(Over partitionBy 'a orderBy 'proctime preceding UNBOUNDED_ROW as 'w)
+
+    2） 有界的over window
+    // 有界的事件时间over window (时间字段 "rowtime"，之前1分钟)
+    .window(Over partitionBy 'a orderBy 'rowtime preceding 1.minutes as 'w)
+
+    // 有界的处理时间over window (时间字段 "rowtime"，之前1分钟)
+    .window(Over partitionBy 'a orderBy 'proctime preceding 1.minutes as 'w)
+
+    // 有界的事件时间Row-count over window (时间字段 "rowtime"，之前10行)
+    .window(Over partitionBy 'a orderBy 'rowtime preceding 10.rows as 'w)
+
+    // 有界的处理时间Row-count over window (时间字段 "rowtime"，之前10行)
+    .window(Over partitionBy 'a orderBy 'proctime preceding 10.rows as 'w)
+
+    基于流式数据特点，目前没有实现 following
+
+
+
+
+                                 函数 --- Flink TableAPI 和 SQL 为用户提供了一组用于数据转换的内置函数
+
+       分类                  SQl                     TableAPI
+       比较函数            v1 = v2                   v1 === v2
+                           v1 > v2                   v1 > v2
+
+       逻辑函数     boolean1 OR boolean2        BOOLEAN1 || BOOLEAN2
+                    boolean is false            BOOLEAN.isFALSE
+                    NOT boolean                !BOOLEAN
+       算数函数     v1 + v2                     v1 + v2
+                    POWER(n1,n2)                n1.power(n2)
+
+       字符串函数
+       时间函数
+       聚合函数...
+
+
+
+              UDF(user define function)
+              先主侧，再使用
+              调用resignFunction()方法在TableEnv中注册，插入TableEnv中，就可以在TableAPI或者SQL使用了
+
+            分类
+               1 标量函数 -- 继承 ScalarFunction 其中求职方法由类的eval方法确定(方法名必须是这)
+               多进一出 类似 map
+
+               2 表函数  -- 继承 tableFunction  也必须实现public的eval函数
+               一进多出  类似 flatmap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   自定义函数
+

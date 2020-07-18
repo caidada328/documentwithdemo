@@ -1,0 +1,22 @@
+包含用户画像
+主要掌握TopN这个最主要 先2后1
+1.全量聚合 调用KeyedProcessFunction Onelement Ontimer 做统计类操作 大招 状态编程 定时器
+2.增量聚合 需要定义窗口，在用Aggregate(new aggregate ，new WindowFunction)
+第二个主要是有一个ctx能共用获取一些生命周期或者窗口信息
+
+
+
+风控类
+用的不多。是一个趋势
+1.自定义processFunction
+2.推荐 CEP这个不错哦
+
+
+布隆过滤器
+
+双流合并
+connect
+interval join
+
+1.正对每一个算子都有一个UID  checkpoint比较好
+2.

@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8d15fa0-653c-42c7-b377-bb54df2d52b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../algorithm/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day01/CalculatorDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day01/CircularLinkedListDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day01/DoublyLinkedListDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day01/Josephu.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day01/SinglyLinkedListDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day01/SparseArrayDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day01/Stack.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day01/queue.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day02/binarySearchDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day02/bubbleSortDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day02/heapSearchDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day02/hillSortDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day02/insertSelectionDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day02/mergeSortDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day02/quickSortDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day02/selectionSortDemo.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/main/java/com/atguiug/day03/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/admin/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/admin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/admin/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/admin/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/admin/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/js/dataAcquisition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/demo/demo-jquery/test3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/.bin/mime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/.bin/mime.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/.yarn-integrity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/accepts/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/accepts/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/accepts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/accepts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/accepts/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/array-flatten/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/array-flatten/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/array-flatten/array-flatten.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/array-flatten/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/lib/read.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/lib/types/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/lib/types/raw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/lib/types/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/lib/types/urlencoded.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/body-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/bytes/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/bytes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/bytes/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/bytes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/bytes/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-disposition/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-disposition/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-disposition/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-disposition/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-disposition/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-type/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-type/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-type/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-type/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/content-type/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-parser/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-parser/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-signature/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-signature/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-signature/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-signature/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie-signature/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/src/inspector-log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/lib/browser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/lib/compat/callsite-tostring.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/lib/compat/event-listener-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/lib/compat/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/depd/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/destroy/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/destroy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/destroy/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/destroy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ee-first/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ee-first/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ee-first/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ee-first/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/encodeurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/encodeurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/encodeurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/encodeurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/encodeurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/escape-html/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/escape-html/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/escape-html/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/escape-html/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/etag/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/etag/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/etag/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/etag/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/etag/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/middleware/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/middleware/query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/response.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/router/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/router/route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/lib/view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/node_modules/cookie/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/node_modules/cookie/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/node_modules/cookie/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/node_modules/cookie/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/node_modules/cookie/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/express/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/finalhandler/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/finalhandler/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/finalhandler/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/finalhandler/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/finalhandler/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/forwarded/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/forwarded/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/forwarded/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/forwarded/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/forwarded/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/fresh/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/fresh/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/fresh/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/fresh/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/fresh/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/http-errors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/http-errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/http-errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/http-errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/http-errors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/https/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/Changelog.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/dbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/dbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/sbcs-codec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/sbcs-data-generated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/sbcs-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/tables/big5-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/tables/cp936.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/tables/cp949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/tables/cp950.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/tables/eucjp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/tables/gbk-added.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/tables/shiftjis.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/utf16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/encodings/utf7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/lib/bom-handling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/lib/extend-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/lib/streams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/iconv-lite/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ipaddr.js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ipaddr.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ipaddr.js/ipaddr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ipaddr.js/lib/ipaddr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ipaddr.js/lib/ipaddr.js.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ipaddr.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/media-typer/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/media-typer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/media-typer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/media-typer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/media-typer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/merge-descriptors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/merge-descriptors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/merge-descriptors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/merge-descriptors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/merge-descriptors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/methods/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/methods/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/methods/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/methods/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/methods/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/mime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/src/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/src/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/mime/types.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/lib/charset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/lib/encoding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/lib/language.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/lib/mediaType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/negotiator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/on-finished/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/on-finished/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/on-finished/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/on-finished/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/on-finished/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/parseurl/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/parseurl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/parseurl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/parseurl/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/parseurl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/path-to-regexp/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/path-to-regexp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/path-to-regexp/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/path-to-regexp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/path-to-regexp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/proxy-addr/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/proxy-addr/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/proxy-addr/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/proxy-addr/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/proxy-addr/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/dist/qs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/lib/formats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/test/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/test/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/qs/test/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/range-parser/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/range-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/range-parser/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/range-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/range-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/raw-body/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/raw-body/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/raw-body/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/raw-body/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/raw-body/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/raw-body/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safe-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safe-buffer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safe-buffer/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safe-buffer/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safe-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safer-buffer/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safer-buffer/Porting-Buffer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safer-buffer/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safer-buffer/dangerous.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safer-buffer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safer-buffer/safer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/safer-buffer/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/.bin/mime" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/.bin/mime.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/http-errors/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/http-errors/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/http-errors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/http-errors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/http-errors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/send/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/serve-static/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/serve-static/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/serve-static/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/serve-static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/serve-static/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/setprototypeof/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/setprototypeof/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/setprototypeof/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/setprototypeof/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/setprototypeof/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/setprototypeof/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/statuses/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/statuses/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/statuses/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/statuses/codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/statuses/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/statuses/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/toidentifier/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/toidentifier/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/toidentifier/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/toidentifier/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/type-is/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/type-is/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/type-is/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/type-is/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/type-is/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/unpipe/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/unpipe/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/unpipe/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/unpipe/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/unpipe/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/utils-merge/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/utils-merge/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/utils-merge/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/utils-merge/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/utils-merge/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/vary/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/vary/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/vary/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/vary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/node_modules/vary/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/server/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dataAcquisition-master/src/dataAcquisition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/avltree/AVLTreeDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/avltree/AVLTreeDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/binarytree/BinaryTreeDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/binarytree/BinaryTreeDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/hash/HashDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/hash/HashDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/linkedlist/CircleDoublyLinkedListDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/linkedlist/CircleDoublyLinkedListDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/linkedlist/DoublyLinkedListDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/linkedlist/DoublyLinkedListDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/linkedlist/Josephu.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/linkedlist/Josephu.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/linkedlist/SinglyLinkedListDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/linkedlist/SinglyLinkedListDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/queue/QueueDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/queue/QueueDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/searchetree/SearchBinaryTreeDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/searchetree/SearchBinaryTreeDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/sort/BubbleSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/sort/BubbleSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/sort/InsertSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/sort/InsertSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/sort/MergeSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/sort/MergeSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/sort/QuickSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/sort/QuickSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/sort/Text.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/sort/Text.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../datastruct/sort/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../datastruct/sort/package.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/etl/DImJoinData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/etl/DImJoinData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/etl/DimGreenplumAsyncFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/etl/DimGreenplumAsyncFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/etl/DimHbaseAsyncFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/etl/DimHbaseAsyncFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/etl/DwdGreenPlumSink.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/etl/DwdGreenPlumSink.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/etl/DwdHbaseSink.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/etl/DwdHbaseSink.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/etl/OdsEtlData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/etl/OdsEtlData.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/etl/TestCogroup.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/etl/TestCogroup.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/etl/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/etl/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/kafkaproducer/BaseAdLogKafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/kafkaproducer/BaseAdLogKafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/kafkaproducer/BaseMemberKafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/kafkaproducer/BaseMemberKafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/kafkaproducer/BaseMemberPayMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/kafkaproducer/BaseMemberPayMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/kafkaproducer/BaseMemberRegtypeProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/kafkaproducer/BaseMemberRegtypeProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/kafkaproducer/BaseMemberVipProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/kafkaproducer/BaseMemberVipProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/kafkaproducer/BaseWebSiteKafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/kafkaproducer/BaseWebSiteKafkaProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/kafkaproducer/RondomDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/kafkaproducer/RondomDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/kafkaproducer/TestProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/kafkaproducer/TestProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/BaseAd.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/BaseViplevel.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/BaseWebSite.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/DwdKafkaProducerSerializationSchema.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/DwdMember.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/DwdMemberDeserializationSchema.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/DwdMemberPayMoney.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/DwdMemberPayMoneyDeserializationSchema.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/DwdMemberRegtype.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/DwdMemberRegtypeDeserializationSchema.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/GlobalConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/model/GlobalConfig.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/ResultMode.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/TopicAndValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/model/TopicAndValue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/model/TopicAndValueDeserializationSchema.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../education-flink-online/src/main/scala/caicai/education/model/TopicAndValueDeserializationSchema.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/util/ConfigurationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/util/DataSourceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/util/ParseJsonData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/util/SqlProxy.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../education-flink-online/src/main/scala/com/atguigu/education/util/package.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/com_atguigu_spark_hudi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/resources/core-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/resources/hdfs-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/resources/hive-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/resources/yarn-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/scala/com/atguigu/bean/DwsMember.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/scala/com/atguigu/hudi/test/HoodieDataSourceExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/scala/com/atguigu/hudi/test/HudiTestHive.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/scala/com/atguigu/hudi/test/TableTypeTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/scala/com/atguigu/hudi/util/PageLogProducer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_hudi/src/main/scala/com/atguigu/hudi/util/ParseJsonData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/com_atguigu_spark_kudu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/resources/comerce.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/resources/core-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/resources/hdfs-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/resources/hive-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/resources/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/KuduSparkTest1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/KuduSparkTest2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/KuduSparkTest3.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/KuduSparkTest4.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/KuduSparkTest5.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/Models.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/util/ConfigurationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/util/DataSourceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/util/MyBloomFilter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/util/MyBloomFilter2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/util/ParseJsonData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/util/SqlProxy.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_spark_kudu/src/main/scala/util/pay_info.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/com_atguigu_sparkstreaming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/comerce.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/core-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/course_learn.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/hdfs-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/hive-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/ip2region.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/page.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/qz.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/register.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/resources/yarn-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/other/streaming/AppendTextOutputFormat.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/other/streaming/RawLogSparkStreaming.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/bean/Models.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/producer/CourseLearnProducer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/producer/PageLogProducer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/producer/QzLogProducer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/producer/RegisterProducer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/streaming/CourseLearnStreaming.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/streaming/PageStreaming.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/streaming/QzPointStreaming.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/streaming/RegisterStreaming.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/util/ConfigurationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/util/DataSourceUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/util/ParseJsonData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/util/SqlProxy.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/main/scala/com/atguigu/qzpoint/util/numberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_sparkstreaming/src/test/java/IpTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/com_atguigu_warehouse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/resources/core-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/resources/hdfs-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/resources/hive-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/resources/yarn-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/bean/Models.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/controller/AdsMemberController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/controller/DwdMemberController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/controller/DwsMemberController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/dao/DwdMemberDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/dao/DwsMemberDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/service/AdsMemberService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/service/DwsMemberService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/member/service/EtlDataService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/bean/Models.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/controller/AdsController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/controller/DwdController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/controller/DwsController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/dao/AdsQzDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/dao/QzChapterDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/dao/QzCourseDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/dao/QzMajorDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/dao/QzPaperDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/dao/QzQuestionDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/dao/UserPaperDetailDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/service/AdsQzService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/service/DwsQzService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/qz/service/EtlDataService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/bean/Models.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/controller/DwdSellCourseController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/controller/DwdSellCourseController2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/controller/DwsSellCourseController.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/controller/DwsSellCourseController2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/controller/DwsSellCourseController3.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/controller/DwsSellCourseController4.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/dao/DwdSellCourseDao.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/service/DwdSellCourseService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/sellcourse/service/DwsSellCourseService.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/util/HiveUtil.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/util/ParseJsonData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/src/main/scala/com/atguigu/util/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com_atguigu_warehouse/子pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/education-online.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/AvgTempPerWIndow.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/JDBCSink.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/KafkaSinkTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/MySensorSource.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/RedisSink.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/SourceTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/WordCount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/CoFlatMap.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/CoMapExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/ConnectExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/FilterExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/KafkaExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/KafkaProducerExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/KafkaSink.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/RedisSInkExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/RichExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/SensorReading.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/SensorSource.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/SourceFromCustomDataSource.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/SourceFromFile.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/SplitExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/day2/UnionExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/environmentCreate.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/esSink.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/kafkaSource.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/transformTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day01_03/windowTesst.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day04/ProcessFunctionTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day04/myAssigner.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day04/myAssigner2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day04/watermarkTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day05/sideOutput.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day05/stateBackendTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day05/stateTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day06_day07/KafkaTableTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day06_day07/OutputTableTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day06_day07/TableAPIExample.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day06_day07/TableAPITest2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day06_day07/TimeWindowTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day08/ScalarFunctionTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day08/TableFunctionTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/day08/tableAPIWindowTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/wordcount/batchwordcount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink/wordcount/streamwordcount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/src/main/scala/com/atguiug/flink2/day01/wordCount.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$5$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$5$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$6$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$6$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$7$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$7$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$8$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$8$$anonfun$createSerializer$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow$AggreagateFun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/AvgTempPerWIndow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/JDBCSink$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/JDBCSink$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/JDBCSink$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/JDBCSink$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/JDBCSink$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/JDBCSink$MyJdbcSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/JDBCSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/KafkaSinkTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/KafkaSinkTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/KafkaSinkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/MyIDSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/MyReduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/MySensorSource$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/MySensorSource$$anonfun$run$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/MySensorSource$$anonfun$run$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/MySensorSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/RedisSink$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/RedisSink$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/RedisSink$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/RedisSink$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/RedisSink$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/RedisSink$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/RedisSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/SensorReading$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/SensorReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/SensorTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/SensorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap$MyCoFlatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoFlatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample$MyCoMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/CoMapExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/ConnectExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/ConnectExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/FilterExample$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/FilterExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/FilterExample$MyFilterFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/FilterExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/KafkaExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/KafkaExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/KafkaProducerExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/KafkaProducerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/KafkaSink$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/KafkaSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RedisSInkExample$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RedisSInkExample$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RedisSInkExample$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RedisSInkExample$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RedisSInkExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RedisSInkExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RichExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RichExample$MyFlatMapFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/RichExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SensorReading$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SensorReading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SensorSource$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SensorSource$$anonfun$run$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SensorSource$$anonfun$run$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SensorSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromCustomDataSource$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromCustomDataSource$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromCustomDataSource$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromCustomDataSource$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromCustomDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromFile$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromFile$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromFile$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromFile$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromFile$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SourceFromFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SplitExample$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SplitExample$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SplitExample$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SplitExample$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SplitExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/SplitExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$4$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$4$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$5$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$5$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$6$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$6$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/day2/UnionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/environmentCreate$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/environmentCreate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/esSink$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/esSink$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/esSink$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/esSink$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/esSink$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/esSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/kafkaSource$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/kafkaSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$4$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$4$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$5$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$5$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$6$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$6$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/transformTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/windowTesst$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/windowTesst$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day01_03/windowTesst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/ProcessFunctionTest$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/ProcessFunctionTest$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/ProcessFunctionTest$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/ProcessFunctionTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/ProcessFunctionTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/ProcessFunctionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/TempIncreaseWarning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/myAssigner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/myAssigner2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day04/windowTesst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/SplitTempProcess$$anon$10$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/SplitTempProcess$$anon$10$$anonfun$createSerializer$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/SplitTempProcess$$anon$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/SplitTempProcess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/TempChangeWarning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/TempChangeWarningFlatmap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$6$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$6$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$7$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$7$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$8$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$8$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$9$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$9$$anonfun$createSerializer$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anon$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/sideOutput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateBackendTest$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateBackendTest$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateBackendTest$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateBackendTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateBackendTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateBackendTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day05/stateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/KafkaTableTest$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/KafkaTableTest$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/KafkaTableTest$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/KafkaTableTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/KafkaTableTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/KafkaTableTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/OutputTableTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPIExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$4$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$4$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$5$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$5$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$6$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$6$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TableAPITest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TimeWindowTest$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TimeWindowTest$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TimeWindowTest$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TimeWindowTest$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TimeWindowTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TimeWindowTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day06_day07/TimeWindowTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/Hashcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$$anon$5$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$$anon$5$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/ScalarFunctionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/TableFunctionTest$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/TableFunctionTest$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/TableFunctionTest$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/TableFunctionTest$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/TableFunctionTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/TableFunctionTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/TableFunctionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$4$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$4$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$6$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$6$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$7$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$7$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/day08/tableAPIWindowTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/test$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/test$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/test$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/test$$anonfun$3$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/test$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/test$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/batchwordcount$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/batchwordcount$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/batchwordcount$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/batchwordcount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/batchwordcount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/batchwordcount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/batchwordcount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/streamwordcount$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/streamwordcount$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/streamwordcount$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/streamwordcount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/streamwordcount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/streamwordcount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/streamwordcount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink/wordcount/streamwordcount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink2/day01/wordCount$$anon$2$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink2/day01/wordCount$$anon$2$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink2/day01/wordCount$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink2/day01/wordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink2/day01/wordCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink2/day01/wordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink/target/classes/com/atguiug/flink2/day01/wordCount.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com_caicai_spark_hudi/src/main/scala/com/caicai/bean/DwsMember.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com_caicai_spark_hudi/src/main/scala/com/caicai/hudi/test/TableTypeTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="124" column="63" selection-start-line="124" selection-start-column="63" selection-end-line="124" selection-end-column="63" />
+              <folding>
+                <element signature="e#31#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>atguigu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>caicai</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\githubbb\education-online</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/com_caicai_spark_hudi/src/main/scala/com/caicai/bean/DwsMember.scala" />
+        <option value="$PROJECT_DIR$/com_caicai_spark_hudi/src/main/scala/com/caicai/hudi/test/TableTypeTest.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\apache-maven-3.5.4\repository" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="29" />
+    <option name="width" value="1902" />
+    <option name="height" value="1011" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scala" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scala" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scala" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="caicai" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scala" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="caicai" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="bean" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scala" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="caicai" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="education-online" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="education-online" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="com_caicai_spark_hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="scala" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="caicai" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hudi" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595049128819" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8d15fa0-653c-42c7-b377-bb54df2d52b4" name="Default Changelist" comment="" />
+      <created>1595048846522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595048846522</updated>
+      <workItem from="1595048850924" duration="355000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="355000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="29" width="1902" height="1011" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972856" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Jms Messenger" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/com_caicai_spark_hudi/src/main/scala/com/caicai/bean/DwsMember.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com_caicai_spark_hudi/src/main/scala/com/caicai/hudi/test/TableTypeTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="124" column="63" selection-start-line="124" selection-start-column="63" selection-end-line="124" selection-end-column="63" />
+          <folding>
+            <element signature="e#31#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

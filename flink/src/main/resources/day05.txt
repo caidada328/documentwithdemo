@@ -1,0 +1,36 @@
+                                        状态编程
+        主要是使用获取上下文，getRuntimeContext,就是说这个是richFunction就能用状态编程
+flink  中的状态
+1)算子状态 Operation State 当前算子的各个并行子任务能够共享的那么一个状态
+①List state 将状态转变为列表存储的状态
+②Union list state 与①大致一样 ，区别在于发生故障是，或者从保存点启动柜应用程序时如何恢复
+③Broadcast State 一个算子有多个任务，而它的每项任务状态又都相同，适用于广播状态
+2)键控状态 Keyed State 当前算子的子任务或者下流的任务不能够共享的那么一种状态 (重点把握)
+为每一个key维护一个状态，当一个分区有多个key，那么状态中就针对每一种key保存独有的key能够访问的状态
+①Value state 将状态表示为单个的值
+操作 ： get set
+②List state 将状态表示为一组数据的列表
+操作：add,addAll,get,update
+③ Map state 将状态表示为一对k-v
+操作：get,put,contain,remove
+④Reducing state
+⑤aggregating state
+操作：④⑤同②一样，只不过返回的值的类型不一样
+3)状态后端 Keyed Backend  --- 组件
+任务
+①本地状态管理
+②状态的传输，序列化和反序列化
+③checkpoinr管理，存盘与快照
+
+种类
+①memoryStateBackend --- 调试，测试
+内存级别的状态后端，将键控状态作为内存中的对象进行管理，将他们存储在Taskmanager的JVM堆上，checkpoint存储在JobManager内存中
+②fsStateBackend ---生产至少用这个
+与①的主要差别是将checkpoint放在远程的持久化文件系统上
+③RockDBStateBackend
+避免②由于数据太大，导致的OOM,使用这个，序列化后，存储在RockDBb(k-v型数据库)中存储
+注释：flink中的状态有另外一种分法，rawstage 以及 Managerstate 上面三种都是第二种
+
+问题：什么是状态
+状态是针对每个算子来说的  可以看成一个本地变量 一般放在本地内存 方便实用  雨后面的chekpoint(容错机制)结合
+

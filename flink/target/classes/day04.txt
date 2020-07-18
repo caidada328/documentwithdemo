@@ -1,0 +1,58 @@
+
+
+乱序数据：但是也不排除由于网络、分布式等原因，导致乱序的产生，
+所谓乱序，就是指Flink接收到的事件的先后顺序不是严格按照事件的Event Time顺序排列的
+默认按照event.time来分桶，需要考虑事件延迟的最大偏差，感觉不可取
+
+
+
+WaterMark
+是一种延迟进展的机制，就是直接定义一个延迟的时间，实际就是插入了一条特殊的记录（一条象征性的数据，标签）
+ assighTimestampsAndWatermarks
+
+waterMark的定义：是更具实际的每个窗口最大的时间戳减去自己估计的延时(可以这样理解，然后是这个延时时间可以自己估计，也可以手设，是不是这个延时时间
+就是process time 与 event tinme 之间的时间差)
+
+watermark的产生：如果只有一个并行度，一个task，那么每一个watermark的插入(带时间的标签)就是依据Assigner(两种，一个是定时，一个非定时
+)的不同waterMark的调取机制也是不一样的；并行度不为1则是以此类推
+
+waterMark的更新：对于每一次都会有一个waterMark来把关。当并行度为1时，当判断所有小于watermark的时间戳的数据都已经过去了(这个应该是这样
+判断的，此时waterMark-最大延时时间的数据出现，而这个数据应该也是watermark,就能保证)；然后没搞一次就会导致window的数据满一次，\
+
+整个的waterMark的更新会有一个时间点的更新，其实也就是对应的Job执行机制(update event-time dock),它为了保证每一次的
+Job的执行，每一个Task的数据不会有滞后，那么就必须要保证所有的都到达要求，而且数据不能有过多的冗余，那么这个时间就必须是每一个task(即每一个parallelize)
+对比后的最小值,每一个Job的awterMark数据的更新，就会将器放入桶中，进行数据的实时计算一次，所以一个windown内数据更新的间隔时间就是watermark的间隔时间，并最终
+在一个window窗口内部会有一个最终的结果，那么请问，是不是window的时间差必须是设置的watermark的时间间隔倍数尼？
+
+
+一般的延迟时间是20-200ms,
+
+
+处理乱序的三重保障
+1）waterMark  -- 触发计算
+2)allowedLateness  -- 清空一个窗口状态
+3)sideOutputLateData  ---处理完理论一个窗口的所有数据
+
+比较配普通算子，richFunction
+
+普通算子：只能获取当前的数据，或者聚合状态
+
+RichFunction：可以有生命周期的方法，可以获取运行时上下文，进行状态编程，
+到那时不能获得WarterMark和获取时间戳的相关信息
+
+
+底层API ProcessFunction (extends RichFunction)(底层API) -->
+1:访问时间戳、watermark以及注册定时事件。还可以输出特定的一些事件
+2:注册定时器，满足要求，干某些事情
+ProcessFunction
+KeyedProcessFunction
+CoProcessFunction
+ProcessJoinFunction
+BroadcastProcessFunction
+KeyedBroadcastProcessFunction
+ProcessWindowFunction
+ProcessAllWindowFunction
+
+
+
+

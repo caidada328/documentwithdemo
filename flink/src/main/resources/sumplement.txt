@@ -1,0 +1,117 @@
+windowFunction
+开窗 -》 闭合 -》 计算 -》 消费窗口
+keyedStream -> processElement
+windowStream -> process aggregateFunction(增量函数) AllwindowFunction (全窗口函数)
+trigger -> pure && fire
+connectedStream -> CoStream
+两条流先key然后connect 在 process(new CoProcessFunction)
+
+☆☆☆☆☆
+关于状态编程进行类比
+状态的值是lazy val
+那么迭代器和列表的区别 迭代器不需要将元素加载到内存 只维护一个指针
+链表会把所有元素加载到内存 可能会由于数据量大二OOM
+
+Java的类型擦除
+不加泛型的话会类型擦除，所有类型都是Object
+Jvm中会把Object cast 强转对应的类型
+
+☆☆☆☆☆
+Trigger 不能声明全局变量 所以说在Trigger中实现状态编程时候，在不同的函数实现清理的话，必须重新
+书写一个状态(就是在clear方法中)
+OnElement => processElement
+OnProcessingTime OnEventTime => OnTimer
+clear 用于清理状态
+
+Trigger是开窗后的操作
+
+
+关于双流join
+①情形1 设置两条流，同时在一条流的一个点上的数据对应另外一条流的一个时间区间的数据
+主要应用于between算子可以定义一个时间区间 process 后使用ProcessJoinFunction
+见InterValExample
+
+局限性：只能使用innerjoin   ---> 注意若想使用full outer join 就需要使用CoProcessFunction
+
+☆☆☆☆☆
+class allowedLatenessFunc extends ProcessWindowFunction[(String,Long),String,String,TimeWindow] {
+
+   lazy val a = getRuntimeContext.getState()  //这个是整个流只保留一个
+    override def process(key: String, context: Context, elements: Iterable[(String, Long)], out: Collector[String]): Unit = {
+
+ lazy val allowedLatenessStateandCount = context.windowState.getState() //这个是一个键控一个窗口一个,超过窗口后会恢复到默认值
+    }
+  }
+
+rocksDB 硬盘k-v数据库，读取速度介于memory和Hfs之间  => k-v型数据的读写操作速度介于内存和一般文件
+
+☆☆
+实现exactly-once,两阶段提交下游必须要支持事物：mysql elasticsearch 支持，不支持的可以使用mysql等事物来保存
+
+WAL:WriteHeadLog只能做到 atleast once  因为这个只和自己相关 ，但是要是宕机了，那么就需要重新启动
+flink由于有了checkpoint(保存到hdfs中，所以说它可以提前拉取，但是再次写入会导致数据重复)
+
+
+如果：下游支持幂等 ，但是发送的数据不可重置，那么会有exactly-once,那么就需要一定时间来恢复这个数据。
+所以说支持幂等性的kafka(但是这个kafka幂等性的基本单位是session&&topicpartition的)是连接flink最好的，所以说会有数据重复，在下游需要对数据进行去重
+
+
+kafka与spark的端对端的一致性 ：
+ 1，kafka可以维护偏移量 具体就是 直连后获得数据流然后foreachRDD => rdd.asInstanceOf[HasRangeOffsets].rangeOffset
+for(or <- rangeOffsets){
+ or中有很多放发，如partition offset key
+}
+
+2:采用两阶段提交的方法，因为有kafka transaction ,所以两阶段提交有了用武之地，不过可惜的是等待时间长，所谓的两阶段提交，可以简单的理解就是
+把单位粒度弄大了。
+具体过程
+1)由于kafka要根据checkpoint来保证它的容错机制(一般要结合backend--> 生产的时候是保存在hdfs上的)
+2)而每一个barrier都要分发到下一个算子的，当发送到kafkasink的时候，那么会有第一个barrier过来，会触发checkpoint操作，通过taskManager
+来告诉jobManager这里的情况，jobManager与taskManger之间进行通信，最后又taskManager告诉kafka(我想应该是KafkaProducer)
+预提交，然后当所有的barrier都到达到KafakSink的时候，这个时候还是这三个人进行通信，最后Kafka得知，然后就是提交
+
+28.Savepoint  不过是指向checkpoint的一个指针，不会过期
+配置的话在flink-yaml文件中配置路径
+( flink savepoint)保存点可以设置A/B测试，设置一个保存点，应用一个新的程序跑，然后对比，选取新旧程序效果好的
+
+概念：手工触发，通过checkpointing机制创建的streaming job的一致性快照称之为Savepoint
+Savepoint由两部分组成：
+（1）数据目录：稳定存储上的目录
+（2）元数据文件：指向数据目录属于当前Savepoint的数据文件的指针
+
+直接触发Savepoint(想象你要为数据库做个备份)
+bin/flink savepoint :jobId [ 目录]
+
+直接触发savepoint(flink on yarn)
+bin/flink savepoint :jobid [目录]  -yid :yarnApplicationId
+
+Cancel Job with Savepoint
+bin/flink cncel -s [目录] :jobid
+
+从指定Savepoint恢复job
+bin/flink run -s :savepointPath
+
+从指定Savepoint恢复job
+bin/flin run -s:savepointPath -n
+
+
+Keyed State 的ttl策略
+Keyed State TTL
+(键控状态默认是惰性清除策略，update只是将其设置为过期数据，但是还是可能访问到的)
+任何类型的keyed都可以设置TTL。如果设置TTL已配置，且状态值已过期，则将以最佳方式清理
+所有State collection都支持条目级别TTL，即list、map中的条目独立expire
+用法:
+  val ttlConfig=StateTtlConfig.newBuilder(Time.seconds(1))
+        .setUpdateType(StateTtlConfig.UpdateType.OnReadAndWrite)
+        .setStateVisibility(StateTtlConfig.StateVisibility.NeverReturnExpired)
+        .build()
+ val descripe = new ValueStateDescriptor("avgState", TypeInformation.of(new TypeHint[(Long, Long)] {}))
+      descripe.enableTimeToLive(ttlConfig)
+
+TTL相关配置
+一.Refresh策略（默认onCreateAndWrite）:设置如何更新keyedState的最后访问时间
+StateTtlConfig.UpdateType.Disabled  禁用ttl
+StateTtlConfig.UpdateType.OnCreateAndWrite 每次写操作均更新State的最后访问时间（Create、Update）
+StateTtlConfig.UpdateType.OnReadAndWrite 每次读写操作均更新State的最后访问时间
+
+

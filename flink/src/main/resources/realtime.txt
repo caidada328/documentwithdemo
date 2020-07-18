@@ -1,0 +1,61 @@
+准实时数仓分层  1小时跑一次
+三层
+ods ->dim(dwd+dws+dwt) -> 指标层
+
+1.0 log -> kafka -> sparkStreaming -> ods(hbase) -> spark sql(hbase)
+
+2.0 log->kafka->flink->ods(hbase)-> flink dataset |flink sql
+
+实时数仓  （维度表和实时表都是在hbase中）
+
+
+实时表： log->kafka->flink(ETL) -> kafka(事实表) ->
+ datastreaming(key 而不 window): 首先实时表多表流的join 然后和hbase中的维度表join->做成宽表，利用异步IO,落到Hbase中->用即席查询查询
+
+
+维度表： log->kafka->flink(ETL) ->hbase(维度表和事实表侧输出流表)
+
+ES做快的任务和HBase做略慢的任务
+
+☆☆☆☆☆sumplement:对于主输出流和侧输出流的操作 主输出流写到kafak中，侧输出流写到Hbase中，这个不是延时策略，而是故意侧输出流，
+只输出维度表
+
+先介绍一下同步IO:就是一个排队的过程，你想买东西必须等前面的人买完了，你才能去买，如果两个人的时间间隔小于前面人这个买东西的时间
+那么就会有等待的时间
+flink之异步IO(Async IO)：在去Hbase中查询的案例就是一条流上大家一块儿去查询，那么等待时间就会缩短。
+
+Hbase rowKey设计
+
+问题:flink与Hbase之间交互过于频繁，中间需要加上缓存，缓冲一下速度
+
+事实监控mysql的文件的话使用canal 或者 maxwell 由于canal 没有断点续传的功能，所以使用canal -HA,而maxwel是拥有断点续传的功能。
+
+？？ 为什么不用java代码直接将mysql或者flume采集的数据导入到kafka中，只是因为从ads指标来看,如果数据有问题，使用flume,maxwell,或者说是
+HA-canal ,可以对数据有记录，落盘了，可以追查问题。
+
+Hbase查询单值会比较快(region,rowkkey,k-v,字典排序，列式存储)，但是如果有多个版本的值，还得需要去block ,memstore 和Hfile中去查询，很慢，
+
+flink中的富函数open的调用次数是和并行度相关的。
+
+kafka中的数据都是byte
+
+HBase的Row-key设计准则：1散列2唯一3不能太长
+
+
+由于实时数据量比较大
+
+由于flink第一次从kafka拉取数据ETL，之后将维度表利用侧输出流写入到Hbase中，一部分写入到Kafka中，之后kafka的数据做多个事实表对应的流进行join(利用coGroup方法)
+在从Hbase中查询数据，那么由于数据量过大，所以采用了两层缓存机制，第一层是google的Grava中的线程池做了第一个缓存(这个是LRU算法实现的 Latest recently used),第二层利用了redis，就是把时间排名靠后的数据
+存放在其中，也就是说，先到grava的缓存中查询数据，如果找不到，就从Redis中查询数据
+
+TIDB现在追求，那么就是说，追求SQL和NOSQL一体化，底层NoSql，而实际查询是通过mysql
+
+
+sqoop 与 datax 之间的区别
+sqoop 走mr消耗的资源是yarn资源
+默认开启4个mr(6 , 8)
+
+dataX
+不适用yarn资源，只是消耗cpu线程的资源 ，单机，比sqoop快
+
+离线和实时是分开的

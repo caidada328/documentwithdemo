@@ -1,0 +1,6 @@
+# Project exclude paths
+/target/
+.idea/
+scala1015.iml
+src/test/
+

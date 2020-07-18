@@ -1,0 +1,112 @@
+1.小文件问题
+2.windows下local模式如何访问集群资源
+3.内存优化
+4.join优化
+5.参数和分区控制
+
+                   1.小文件调优
+跑yarn的时候需要注释掉setMaster("local[*]")
+如何写到Hbase中，将RDD转为DF在write.mode
+如果使用spark on hive 那么写入到hive中必须使用insertinto 而不能使用saveAsTable,后者不兼容hive
+
+                    2如果在local下跑spark，想要访问集群资源，
+需要将hive的配置文件拷贝到本地，resource源码包下：core-site.xml,hive-site..xml,yarn-site.xml,hdfs-site.xml
+val sparkSession = SparkSession.builder().config(sparkConf).enableHiveSupport().getOrCreate()
+    val ssc = sparkSession.sparkContext
+    ssc.hadoopConfiguration.set("fs.defaultFS", "hdfs://mycluster") //这个和配置文件上的配置参数必须是一样的
+
+    ssc.hadoopConfiguration.set("dfs.nameservices", "mycluster")
+
+
+                    3 对spark三种join与hive的三种join的对比
+
+             ① hash join                     reduce join
+        老版本，现在不支持了               正常的join 大部分情况下
+
+             ② broadcast join                 map join
+    共同点：都是将小表拉倒内存中，与大表进行交互查询关联  ，只是支持小表 join大表效果好些
+    细讲broadcast join 就是把小表的在各个分区数据聚合拉到driver端，然后分发到大表各个分区，避免了大表和小表正常情况下，大表需要shuffle,在和小表关联；
+    细讲map join 就是把小表的数据拉到内存中，大表一个个分区过来关联。   set hive.auto.convert.join=true  hive.auto.convert.join.noconditionaltask.size = 10
+    这个是系统自动优化的，但是这个小表有多小，这个是看我们自己手动设置的，默认都是10M
+    区别点：spark就是一个分发的过程，而hive是一个访问的过程
+             ③ sortmerge join                 SMB join(sort merge bucket join)        -----------两个大表的join
+    就是说，大表先shuffle在排序 然后关联       快排归并排序然后将数据分在不同的分桶表中 放在各个桶内再关联，
+                                               其实也就是将大表变成了小表 sort(id) = join(id) = bucket(id)
+                                               需要这只 set hive.enforce.bucketing = true  ; set hive.enforce,sorting = true
+
+
+
+                   4 rdd df ds 之间的比较
+
+      spark内存 ：两部分1 storage 内存(可以看得到的)   2 shuffle(execution) 内存：用于计算(无法估算出来)
+      3：other:用户自己内存，用于存储RDD转换过程所需要的信息，如RDD的依赖信息 4：reserved memory : 预留内存，防止OOM
+
+     rdd缓存级别默认是缓存 df,ds是使用storagelevae.memory_and_disk
+      rdd.cache的默认序列化是java的，但是scala提供了一个kyro的序列化，比java的更快，而且占用的空间小，一般是差不多1/6的内存
+      操作步骤见官网，那么①：先要sparkConf.set("spark.kryo.registrator", "caicai.com.MyKryoRegistrator");然后在注册一下
+
+      ds的序列化有自己的序列化机制:Encoder
+
+              例子：rdd java序列化cache 默认缓存 1.7G
+                        rdd kryo序列化并且使用 ser 序列化缓存 缓存大小降到 269.6 MB
+                        dataset 默认cache 34.2mb
+                        dataset ser序列化缓存 33.8 MB (StorageLevel.Memory_And_Disk_Ser)
+
+
+                                5.spark-submit 参数的提交
+                 spark-submit  --master yarn --deploy-mode client --driver-memory 1g --num-executors 2 --executor-cores 2 --executor-memory 2g --class com.caicai.other.streaming.RawLogSparkStreaming  --queue spark  com_caicai_sparkstreaming-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+                --num-executors 2 * --executor-cores 2 的个数是总cpu个数，那么spark 分区个数得是这个个数2倍或3倍那么是最优的
+
+                平均一个CPU跑两个任务是最好的  必须是整除 ，否则会导致有的CPU core 会有空转的情况
+
+                spark.reducer.maxSizeInFilght  控制reduce去map端拉取的数据量
+                spark.shuffle.file.buffer  控制shuffle文件大小
+                优化效果：5%
+
+
+Spark Streaming:
+1.checkpoint 不会去使用的 因为会造成大量的小文件 一个分区一个文件
+2.spark streaming默认分区个数跟topic分区个数是一致的
+3.spark.streaming.kafka.maxRatePerPartition   是开发当中必然会设置的一个参数 控制spark streaming每秒消费多少条  1000到3000条数据都是可以的
+4.updateStateByKey 基于checkpoint的所以也不会去用
+
+
+如何保证spark streaming数据不丢失
+1.偏移量设置手动提交
+2.控制先后顺序，保证提交偏移量是在处理业务数据之后
+    stream.foreachRDD(rdd => {
+      val sqlProxy = new SqlProxy()
+      val client = DataSourceUtil.getConnection
+      try {
+        val offsetRanges: Array[OffsetRange] = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+        for (or <- offsetRanges) {
+          sqlProxy.executeUpdate(client, "replace into `offset_manager` (groupid,topic,`partition`,untilOffset) values(?,?,?,?)",
+            Array(groupid, or.topic, or.partition.toString, or.untilOffset))
+        }
+3.spark streaming初始化的时候，去mysql查询下偏移量，如果说mysql里有偏移量则根据偏移量，如果mysql里没有偏移量那么证明是第一次启动，从earliest
+
+
+
+
+spark.streaming.backpressure.enabled  背压  解决spark streaming解压问题，动态去拉取数据，上限值由spark.streaming.kafka.maxRatePerPartition 这个参数决定
+spark.streaming.stopGracefullyOnShutdown 优雅关闭  开启之后接收到kill命令不会立马kill,而是等当前批次数据处理完毕没有问题再kill的
+
+
+spark streaming操作数据库:
+    resultDStream.foreachRDD(rdd => {
+      rdd.foreachPartition(partition => {
+        //创建数据库的连接
+       partition.foreach( //使用连接)
+
+     //退到分区处 关闭连接
+   }
+}
+
+解决线程安全问题
+1.加分布式锁 zk  redis 都可以 但是加了肯定会影响效率
+2.reducebykey或者groupby  groupbykey  将相同 key先聚合到同一个分区 那么相同key发出的查询请求只会有一次
+
+spark submit提交时 --num-executors 5 --executor-core 2 两参数相乘 等于分区数 cpu比上分区数是1:1 那么spark streaming运行速度最快,spark streaming当中不会去刻意增大分区或减小分区的，
+因为增大会进行shuffle,减小分区并行度就减少了 所以不会刻意用
+

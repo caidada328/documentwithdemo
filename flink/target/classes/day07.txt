@@ -1,0 +1,34 @@
+Table API & SQL
+table api 目前不太完善
+底层比较完善
+如果比较难的话，无法完成的功能，使用CEP
+
+TableEnv的作用
+①注册catlog
+②在catlog中注册表
+③执行SQL语句
+④用户自定义函数
+
+                    表
+
+是由一个标示符来指定的，由3部分组成
+Catalog名 + 数据库名 + 对象名
+前两者有默认的 default_catalog default_database
+最后一个对象名必须自己去指定
+
+
+如何将数据收到转换为表并写入到别的框架中 表的查询
+见TableAPITest2
+
+
+更新模式
+Append -- 插入 和外部连接器只交换插入消息
+
+Retract -- 撤回 和外部连接器交换Add和Retract消息
+注释：插入操作为Add,删除编码为Retract,更新(Update)为上一条的Retract和吓一条的Add消息
+
+Upsert
+这个没有
+
+
+在tableApI定义时间语义和在DataStream进行时间语义操作的区别

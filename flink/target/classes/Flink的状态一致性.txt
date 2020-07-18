@@ -1,0 +1,35 @@
+                     状态一致性：保证结果的一致性，一条数据也不丢，也不应该重复计算
+状态一致性分类
+at_most_once；什么都不用干，速度最快
+at_least_once：希望不丢失事件
+exactly_once：最严格的保证，但也是最难实现的
+①一致性检查点---checkpoint来完成的
+使用快照机制
+
+②端到端状态一致性
+考虑到flink和数据源都是exactly_once 中间每一个组件都是exactly_once
+以中间组件最弱的那个作为标准
+
+③端到端的精确一次保证
+
+source:可重新设置数据的读取位置
+
+内部保证：checkpoint
+
+sink端：从故障恢复时候，数据不能重复写入
+幂等写入：涉及一条一条的数据  --->要求外部sink也需要支持幂等，redis就不支持
+事物写入：有么全成功，要么全失败，原子性
+事物写入的两种：
+a->预写日志(WAL Write-Ahead-Log)
+b->两阶段提交:flink to kafka用的这种 Two-Phase-Commit
+先在sink任务中设置一个事物，并将数据写入事物，然后传给外部系统，
+但不是立马提交，而是先预提交，等到checkpoint完成的时候，才将预提交里面的数据写入外部系统 TwoPhaseCommitFunction
+
+④flink+kafka端到端一致性的保证
+内部：checkpoint
+source:Kafka Consumer  可以将偏移量保存下来，而且出现故障的时候，能够由连接器重置偏移量
+sink:Kafka Producer  2PC TwoPhaseCommitSinkFunction
+
+
+消费者隔离级别：必须设置为 read_commit 只读取提交成功的数据 properties.put(ConsumerConfig.ISOLATION_LEVEL_CONFIG,"read committed")
+Kafka事物内部默认超时时间是15minutes,连接器的超时时间是1hour，所以kafka内部事物的超时时间要设置长一点

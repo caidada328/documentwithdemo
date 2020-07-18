@@ -1,0 +1,27 @@
+离线数仓
+项目描述：公司业务，做的是什么，解决了什么问题
+1.数据来源 flume  |maxwell canal 监控mysql
+2.分4层
+ods层用什么压缩格式，(lzo ? snappy不支持切割，但是单片跑的最快的，小于128M的)  spark对snappy更好一点 第一层是行式存储因为sqoop列式存储会报错
+dwd 数据清洗，脱敏
+dws 合成宽表，拉链表
+ads 指标统计   dataX还是比sqoop好用的  5个指标
+调优：hive或者spark调优  2点左右
+
+这个后面的3层可以忽略不计
+
+
+实时数仓
+canal maxwell binlog'
+ods kafka 由于实际要满足实时数据，那么就是说不能使用压缩，解压缩很消耗性能
+dwd数据清洗，脱敏， 拆分数据 将维度表写入到Hbase中 事实表写入到kafak中
+
+dim 聚合宽表，同时查询指标也是去查询这张宽表 hbase
+
+ods
+1.flink监控多个topic，侧输出流
+2,设置checkpoint,rockdb savepoint 用于A/B测试
+3，流数据join完成后去关联hbase维度表数据，asynclo
+4异步io是阿里flink1.2推出的功能，异步交互数据库
+5hbase预分区，预分区的目的是提前进行散列，避免热点问题，否则hmaster会自己进行负载均衡，或者不负载均衡会气氛region
+6 rowkey设计的合理性 唯一，散列，不能太长， md5(0,5) + 唯一字段

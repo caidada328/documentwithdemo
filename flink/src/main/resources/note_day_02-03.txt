@@ -1,0 +1,85 @@
+
+
+Map Extends MapFUnction(override def map)
+
+MyMapRichFunction extends RichMapFunction(override def map ,open ,close,getRuntimeContext)
+
+slotSharingGroup
+keyBy
+同一类key一定在同一个分区里面
+同一个分区可能有多个key的数据
+
+flink的算子都是带状态的转换
+
+
+window类型（在keyby之后再开窗）
+
+①按照时间来划分 时间窗口 Time Window
+①按照计数来划分 计数窗口 Count Window
+
+a:滚动窗口 tumbing windows(ts1，ts2) 特殊的滑动窗口 ts2是一个默认值的偏移量offset,一般是处理时区的问题 东八区就是 Time.hours(-8)
+
+将数据依据固定的窗口长度对数据进行划分
+时间对齐，窗口长度固定，主要是没有长度，就是窗口长度和滑动长度相同
+左闭右开[ )
+
+b: 滑动窗口，Sliding Windows（ts1,ts2,ts3） 一般是按照个数来定的
+时间对齐 和spark中的滑动窗口是一样的 数据可以有重叠
+
+
+c:会话窗口 Session Windows 就是Session 各个客户端对应的数据是相互独立
+由一系列事件组合一个指定时间长度的timeout间隙组成，当超过这个timeout指定的时间，那么就会
+启动一个新的Session(会话)   时间不对齐
+
+d:global Window 全局窗口，默认没有时间或者数量的限制 ， 这个是供使用者自己去使用的
+一般需要自己去自定义一个 Window assigner 来结合自身目的
+API
+1 Winodw 和WindowAll之间的差别
+window和windowall之间的区别是windowall的并行度是1，没有分组的概念
+
+2 窗口分配器 Window assigner:将数据分在正确的window中的桶中
+
+3 窗口函数 window Function
+  增量聚合函数 incremental aggregation functions 实时处理，来一个处理一个
+  劣势：可能别的信息做不到，别的徐阿偶也做不到
+
+  涉及： reduceFunction AggregateFunction
+
+  全窗口函数 full window functions 窗口所有的数据都拿到 ，就再操作，就是一个批次处理
+
+   涉及：ProcessWindowFunction
+
+4  其它的API
+ trigger 定义window什么时候关闭
+
+  evictor  定义除去某些数据的逻辑
+
+  allowedLateness  允许处理迟到的数据
+
+  注意：当 trigger和allowedLateness的结合操作，达到trigger的关闭窗口时间，会计算一个结果，
+  当这之后，在allowedLateness定义时间类再次遇到一个迟到的数据，那么再次trigger触发一次，
+  并计算一个结果
+
+  sideOutputLateData  将最终迟到不能进入计算的数据流放入到侧输出流
+
+  getSideOutput  获取侧输出流
+
+
+时间语义
+由于实际情况中，当一个事件创建的世间与其达到某一个我们认为中间的消耗时间（例如网络IO,x寻址）为0zh
+之间存在差距，认识这些差距，就知道不能单纯认为时间上一直存在的
+1：event time 创建事件的世间
+2：legstion time 数据来到flink的时间，这之间的时间是有消耗的
+3：process time 数据到达某一个阶段的时间，例如某一个算子的时间，这之间也存在消耗
+
+如果实际业务更加注重事件时间，纳闷主要将这个时间记录下来，弄一个时间戳。
+env.setStreamTimeCharacterstict(Characterstick.EventTime)
+同时需要指定字段哪个字段是我们所要的时间戳
+assignAscendingTimestamps(_.timestamp * 1000L)
+assighTimestampsAndWatermarks
+
+Assigner
+AssignerWithPeriodicAssigner -- default Assigner
+隔一段时间就插入一个
+
+AssigerWith

@@ -1,0 +1,7 @@
+# Project exclude paths
+.idea/
+spark-core/src/test/
+spark1015.iml
+/data-mock/target
+/ck1015
+*/target

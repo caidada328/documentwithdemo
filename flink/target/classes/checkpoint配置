@@ -1,0 +1,19 @@
+//启用检查点，设置检查点间隔时间,就是barrier
+    env.enableCheckpointing(1000L)
+    //其它配置
+    //默认 at_least_once
+    env.getCheckpointConfig.setCheckpointingMode(CheckpointingMode.AT_LEAST_ONCE)
+    //做一次checkpoint的超时时间，如果超过就废弃
+    env.getCheckpointConfig.setCheckpointInterval(3000L)
+    //做多同时可以做的checkpoint个数
+    env.getCheckpointConfig.setMaxConcurrentCheckpoints(2)
+    //两个相邻checkpoint最短的时间间隔，就是留下的最少的时间来处理第二个checkpoint数据的处理时间
+    env.getCheckpointConfig.setMinPauseBetweenCheckpoints(500L)
+    //是使用checkpoint来恢复还是用SavePoint来恢复
+    env.getCheckpointConfig.setPreferCheckpointForRecovery(true)
+    //checkpoint允许失败的次数 默认0
+    env.getCheckpointConfig.setTolerableCheckpointFailureNumber(3)
+
+    //重启策略的配置 一些利用checkpoint重启的一些配置策略
+        env.setRestartStrategy(RestartStrategies.fixedDelayRestart(3,1000L))
+        env.setRestartStrategy(RestartStrategies.failureRateRestart(3,Time.minutes(1),Time.seconds(1)))
